@@ -1,12 +1,13 @@
 import "./DrinkButtons.css";
+import { Button } from "./ui/Button";
 
-export const DrinkButton = () => {
+export const DrinkButton = ({ drinkOne, drinkTwo }) => {
   return (
     <>
       <header>Would you like tea or coffee?</header>
       <div className="button-group">
-        <button className="button">Tea</button>
-        <button className="button">Cofee</button>
+        <Button text={drinkOne}></Button>
+        <Button text={drinkTwo}></Button>
       </div>
     </>
   );

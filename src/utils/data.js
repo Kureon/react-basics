@@ -1,6 +1,6 @@
 export const tea = {
   name: "Tea",
-  imgUrls: "https://media.wincacademy.nl/tea.jpeg",
+  imgUrl: "https://media.wincacademy.nl/tea.jpeg",
   alt: "Picture of a cup of tea",
 };
 

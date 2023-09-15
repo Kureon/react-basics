@@ -2,7 +2,7 @@ export const DrinkChoice = ({ drink }) => {
   return (
     <>
       <p>{drink.name}</p>
-      <img src={drink.imgUrls} alt={drink.alt} width="100px" height="100px" />
+      <img src={drink.imgUrl} alt={drink.alt} width="100px" height="100px" />
       <p>Your drink will be ready soon!</p>
     </>
   );

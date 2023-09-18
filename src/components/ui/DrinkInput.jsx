@@ -1,5 +1,5 @@
-import "./ui/DrinkInput.css";
+import "./DrinkInput.css";
 
 export const DrinkInput = () => {
-  return <input type="text" />;
+  <input className="text-input" type="text" />;
 };

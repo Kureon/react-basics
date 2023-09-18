@@ -1,7 +1,7 @@
-import "./DrinkButtons.css";
+import "./DrinkButton.css";
 import { Button } from "./ui/Button";
 
-export const DrinkButton = ({ drinkOne, drinkTwo }) => {
+export const DrinkButtons = ({ drinkOne, drinkTwo }) => {
   return (
     <>
       <h2>

@@ -1,4 +1,4 @@
-import "./DrinkInput.css";
+import "./TextInput.css";
 
 export const DrinkInput = () => {
   <input className="text-input" type="text" />;

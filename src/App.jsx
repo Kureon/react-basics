@@ -11,7 +11,7 @@ export const App = () => {
   return (
     <div className="app">
       {userDrink ? (
-        <DrinkChoice drink={userDrink} />
+        <DrinkChoice drink={userDrink} clickFn={setUserDrink} />
       ) : (
         <>
           <h1>{greeting}</h1>

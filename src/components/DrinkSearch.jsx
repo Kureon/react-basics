@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { TextInput } from "./ui/TextInput";
-import { DrinkList } from "./DrinkList";
 import { availableDrinks } from "../utils/data";
+import { DrinkList } from "./DrinkList";
+import { TextInput } from "./ui/TextInput";
 
 export const DrinkSearch = ({ clickFn }) => {
   const [searchField, setSearchField] = useState("");
@@ -17,7 +17,7 @@ export const DrinkSearch = ({ clickFn }) => {
   return (
     <>
       <label>Search for drinks:</label>
-      <TextInput changeFn={handleChange} width={"auto"} />
+      <TextInput onChange={handleChange} w={200} mb={8} />
       <DrinkList clickFn={clickFn} drinks={matchedDrinks} />
     </>
   );
